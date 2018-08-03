@@ -88,7 +88,7 @@ use yii\helpers\Html;
 继承 [[yii\base\Widget]] 类并覆盖 [[yii\base\Widget::init()]] 和/或
 [[yii\base\Widget::run()]] 方法可创建小部件。通常`init()` 方法处理小部件属性，
 `run()` 方法包含小部件生成渲染结果的代码。
-渲染结果可在`run()`方法中直接"echoed"输出或以字符串返回。
+渲染结果可在`run()`方法中直接"encode"输出或以字符串返回。
 
 如下代码中`HelloWidget`编码并显示赋给`message` 属性的值，
 如果属性没有被赋值，默认会显示"Hello World"。
